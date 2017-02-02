@@ -3,39 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <title>John's Portfolio</title>
-  <link href="style.css" type="text/css" rel="stylesheet">
-  <link href="reset.css" type="text/css" rel="stylesheet">
+  <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
 
   <header>
-    <p>header</p>
+    <h1>John Johansen</h1>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
-  <nav>
-    <p>nav</p>
-  </nav>
+  <hr width="960px" align="left" color=#777777>
 
-  <section id="sectArea">
-    <p>section</p>
+  <section class="sectArea">
     <article>
-      <p>article</p>
-      <div id="artText">
-        <p><strong>h1, h2, h3</strong></p>
+      <h2>About Me</h2>
+      <hr width="90%" color="#4aaaa5">
+      <div class="myPic">
+        <p><img src="assets/images/JohnFace.jpg" height="120px" float="left" alt="MyFace">I am a business application programmer/analyst living in Los Angeles, CA working to expand my skills into web development.  I grew up in a small town in the farm country of NW Illinois, near the Mississippi River, and moved to LA in 1983 after getting my AS degree in computer programming.  </p>
+        <br>
+        <p>I love Big Band/Swing music, cooking, painting, playing piano, and camping.  </p>
       </div>
-      <div id="artText">
-        <p>p</p>
-      </div>   
     </article> 
+    <aside>
+      <h2>Connect with me</h2>
+      <hr width="80%" color=#4aaaa5>
+      <a><img src="assets/images/github_square.png" height="50px" alt="Github"></a>
+      <a><img src="assets/images/linkedin_square_color.png" height="50px" alt="LinkedIn"></a>
+      <a><img src="assets/images/overflow.png" height="50px" alt="StackOverflow"></a>
+    </aside>
   </section>  
 
-  <aside>
-    <p>aside</p>
-  </aside>
-
   <footer>
-    <p>footer</p>
+    <p>&copy;Copyright 2017 John Johansen</p>
   </footer>
 
 </body>
